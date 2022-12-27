@@ -12,13 +12,12 @@ import codecs
 
 import re
 
-
+from webdriver_manager.chrome import ChromeDriverManager
 
 driver=webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 
-
-val = input(“https://kerkdienstgemist.nl/stations/1883-Hervormde-kerk-Kamerik/events“)
+val = input("https://kerkdienstgemist.nl/stations/1883-Hervormde-kerk-Kamerik/events")
 
 wait = WebDriverWait(driver, 10)
 
