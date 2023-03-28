@@ -27,4 +27,4 @@ while True:
         break
     last_height = new_height
 
-    
+dienst = driver.find_element('xpath', 'ember-view events-grid-item' )    #moet dat linkje doorklikken
